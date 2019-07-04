@@ -28,7 +28,7 @@ df_news_all: 所有新聞的資訊，欄位有 path(資料路徑)、data(新聞�
 
 code:
 利用 knn 求出與某 user 相似的 users ，再找出相似 users 有看過但該 user 沒看過的新聞，並設定這些新聞要被 n 個相似 user 看過，且推薦時間點以前發布的新聞才將其視為要推薦的候選新聞 
-透過之前 kmeans 分群的結果找出該 user 是第幾群(k)，再將第k群的 user 有點過的新聞當作正樣本，沒點過的新聞當作負樣本，再將結果當作label，併入df_news_all當初，輸出檔案為 bert_train_data
+透過之前 kmeans 分群的結果找出該 user 是第幾群(k)，再將第k群的 user 有點過的新聞當作正樣本，沒點過的新聞當作負樣本，再將結果當作label，併入df_news_all當中，輸出檔案為 bert_train_data
 
 
 
