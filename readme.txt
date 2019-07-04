@@ -67,7 +67,7 @@ bert_predict_output= 欄位為推薦新聞不被點擊機率和點擊機率
 bert_test_data_with_target: 要推薦的候選新聞
 
 code:
-找出 Bert 最後一個 layer 的值當作新聞向量
+找出 Bert 最後一個 layer 的值當作新聞向量(也可以選擇多個 layer 再做平均)
 進行推薦候選新聞內容和標題的斷字處理
 透過 average word vec 、 doc2vec 、 bag of words 、 TF-IDF 的方法找出代表新聞的向量
 再透過這些向量對該 user 最後一篇看過的新聞，做 cosine_similarity 的計算，並透過相似性的結果排名
