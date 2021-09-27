@@ -1,4 +1,4 @@
-# News Recommendation Systems
+![img1](img/img1.png)
 ## Executive Summary:
 本文結合機器學習和神經網路的演算法，透過平台上使用者的歷史瀏覽紀錄和新聞內容推薦使用者感興趣的新聞。使用的演算法包括k-means、KNN和Bert模型(2018)，分析過程也有應用自然語言處理(NLP)相關的技術，如average word vectors、Doc2Vec、bag of words、TF-IDF和ELMo等將文章向量化的方法。<br>
 新聞的主要目的之一就是傳遞資訊，讓社會大眾能快速了解自己生活圈以外的事，而推薦系統就是希望在資訊繁雜且選擇多樣的情況，能準確的提供使用者感興趣的選擇標的。因此本文將推薦系統應用在財經新聞平台(MoneyDJ理財網)上。我們主要將推薦方法分為熱門度推薦、相似使用者推薦和個人化推薦。<br>
